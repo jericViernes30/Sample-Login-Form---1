@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    body{
+        background: linear-gradient(to right, rgb(94,196,227), rgb(142,50,233));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .container{
+        position: relative;
+        top: 47px;
+        background-color: #fff;
+        width: 350px;
+        height: 343px;
+        border-radius: 5px;   
+        margin: auto;
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+
+    .content{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    h2{
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+
+    input{
+        border-style: none;
+        border-bottom: solid #c7c9cc 1px;
+        width: 290px;
+        height: 30px;
+        margin-bottom: 35px;
+        outline: none;
+    }
+
+    ::-webkit-input-placeholder{
+        color: #000;
+    }
+
+    .fpass a{
+        position: relative;
+        right: 87px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #2f8ce7;
+        margin-bottom: 10px;
+    }
+    
+    button{
+        width: 290px;
+        height: 35px;
+        background: linear-gradient(to right, rgb(94,196,227), rgb(142,50,233));
+        border-style: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 3px;
+        transition: 1s;
+        margin-bottom: 20px;
+    }
+
+    button:hover{
+        background: rgb(94,196,227);
+    }
+
+    .nam a{
+        text-decoration: none;
+        color: #2f8ce7;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Login Form</h2>
+            <input type="text" name="email-phone" placeholder="Email or Phone">
+            <br>
+            <input type="password" name="pwd" maxlength="12" placeholder="Password">
+            <br>
+            <p class="fpass"><a href="#">Forgot Password?</a></p>
+            <br>
+            <button>LOGIN</button>
+            <p class="nam">Not a member? <a href="#">Signup now</a></p>
+        </div>
+        
+    </div>
+</body>
+</html>
